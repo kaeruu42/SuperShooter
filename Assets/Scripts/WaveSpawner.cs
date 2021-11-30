@@ -12,7 +12,7 @@ public class WaveSpawner : MonoBehaviour
     void Start()
     {
         InvokeRepeating("Spawn", startTime, spawnRate);
-        Invoke("CancelInvoke ", endTime);
+        Invoke("CancelInvoke", endTime);
     }
 
     // Update is called once per frame
